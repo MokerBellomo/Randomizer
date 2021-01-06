@@ -20,8 +20,7 @@ class RandomNumberGenerator : AppCompatActivity() {
         val backButton = findViewById<Button>(R.id.buttonBack)
 
         rollButton.setOnClickListener {
-            val rand = Random.nextInt(rollMax.text.toString().toInt() + 1)
-            //added 1 to make input # inclusive
+            val rand = (1..rollMax.text.toString().toInt()).random()
             result.text = rand.toString()
         }
 

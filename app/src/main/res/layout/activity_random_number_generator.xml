@@ -30,7 +30,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="16dp"
-        android:text="Roll"
+        android:text="@string/roll"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
@@ -47,12 +47,13 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="Enter Number"
+        android:hint="@string/enter_number"
         android:inputType="number"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonRollMax"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonBack"
@@ -61,7 +62,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Back"
+        android:text="@string/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

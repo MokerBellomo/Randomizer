@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Randomizer</string>
     <string name="RNG">Button</string>
     <string name="button">H/T</string>
     <string name="rngButton">RNG</string>
     <string name="buttonRoll">Roll</string>
+    <string name="rng">RNG</string>
+    <string name="h_t">Coin Flip</string>
+    <string name="back">Menu</string>
+    <string name="flip">Flip</string>
+    <string name="roll">Roll</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="coinfliphead">coinFlipHead</string>
+    <string name="headimage">headImage</string>
+    <string name="coinimage">coinImage</string>
 </resources>
